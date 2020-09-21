@@ -1,7 +1,7 @@
 {
-  "name": "react-show-more-text",
+  "name": "show-more-text",
   "version": "1.4.4",
-  "description": "The text surrounded by the component will be truncated. Anything surrounded by the component could be evaluated as text. The component react-show-more-text/ShowMoreText is fork of react-show-more/ShowMore, applied improvements, works with React 16.x.x, added onClick event.",
+  "description": "",
   "main": "lib/ShowMoreText.js",
   "files": [
     "lib"
@@ -21,9 +21,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:devzonetech/react-show-more-text.git"
+    "url": "git@github.com:grygoriy-pinkas/show-more-text.git"
   },
-  "homepage": "https://github.com/devzonetech/react-show-more-text",
+  "homepage": "https://github.com/devzonetech/show-more-text",
   "keywords": [
     "react",
     "show more",
@@ -36,7 +36,7 @@
     "show text",
     "hide text"
   ],
-  "author": "Zdravko Shishmanov <zdrsoft@gmail.com>",
+  "author": "grygoriy-pinkas",
   "license": "ISC",
   "peerDependencies": {
     "react": ">= 16.x.x"
