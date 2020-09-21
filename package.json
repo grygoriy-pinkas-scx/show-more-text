@@ -3,9 +3,8 @@
   "version": "1.4.4",
   "description": "",
   "main": "lib/ShowMoreText.js",
- 
   "scripts": {
-    "compile": "./node_modules/.bin/babel ShowMoreText.js Truncate.js --out-dir lib",
+    "compile": "./node_modules/.bin/babel src/ShowMoreText.js src/Truncate.js --out-dir lib",
     "compile:watch": "onchange \"src/**/*.js\" -- npm run compile --silent",
     "coverage": "nyc npm test && nyc report --reporter=text-lcov",
     "lint": "eslint .",
@@ -14,7 +13,8 @@
     "report-coverage": "npm run coverage | coveralls",
     "test": "./node_modules/.bin/jest",
     "test:watch": "./node_modules/.bin/jest --watch",
-    "travis": "npm run compile && npm run test"
+    "travis": "npm run compile && npm run test",
+    "postinstall": "npm run compile"
   },
   "repository": {
     "type": "git",
