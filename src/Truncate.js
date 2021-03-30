@@ -183,6 +183,9 @@ export default class Truncate extends React.Component {
             Math.floor(target.parentNode.getBoundingClientRect().width)
         );
 
+        // 
+        // 
+
         // Delay calculation until parent node is inserted to the document
         // Mounting order in React is ChildComponent, ParentComponent
         if (!targetWidth) {
